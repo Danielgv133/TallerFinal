@@ -51,7 +51,7 @@ namespace TallerFinal1.Controllers
         {
             clsPeople people = new clsPeople();
             return people.Consultar(ID);
-        }
+        } 
 
 
     }
