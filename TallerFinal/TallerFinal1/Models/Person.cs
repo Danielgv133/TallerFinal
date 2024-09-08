@@ -21,4 +21,6 @@ namespace TallerFinal1.Models
         public Nullable<decimal> ValorReserva { get; set; }
         public Nullable<decimal> ValorDescuento { get; set; }
     }
+
+
 }
