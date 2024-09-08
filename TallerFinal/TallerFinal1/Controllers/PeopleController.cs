@@ -9,7 +9,7 @@ using TallerFinal1.Models;
 
 namespace TallerFinal1.Controllers
 {
-    public class People : ApiController
+    public class PeopleController : ApiController
     {
         //Post Insertar 
         //Put Actualizar
@@ -51,8 +51,6 @@ namespace TallerFinal1.Controllers
         {
             clsPeople people = new clsPeople();
             return people.Consultar(ID);
-        } 
-
-
+        }
     }
 }

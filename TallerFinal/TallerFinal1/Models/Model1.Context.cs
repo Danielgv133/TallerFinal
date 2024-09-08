@@ -28,3 +28,4 @@ namespace TallerFinal1.Models
         public virtual DbSet<Person> People { get; set; }
     }
 }
+
